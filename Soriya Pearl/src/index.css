@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+    display: block;
+}
+
+  @media only screen and (max-width: 850px) {
+    .mylogo {
+      content: url('./assets/logo2.png' );
+      width: 75px; 
+      margin-left: 10px;
+    }
+  }
+  
